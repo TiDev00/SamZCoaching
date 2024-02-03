@@ -34,14 +34,61 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav m-auto">
                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
-                <li class="nav-item active"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item dropdown">
+                    <a  class="nav-link dropdown-toggle" data-toggle="dropdown" id="executiveDropdown">Services</a>
+                    <div class="dropdown-menu" aria-labelledby="executiveDropdown">
+                        <a href="executive-coaching.html" class="dropdown-item " >Executive Coaching</a>
+                        <a href="training.html" class="dropdown-item">Training and Facilitation</a>
+                    </div>
+                </li>
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact us</a></li>
+                <li class="nav-item"><a href="success-stories.html" class="nav-link">Testimonials</a></li>
                 <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
             </ul>
         </div>
     </div>
 </nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var executiveDropdown = document.getElementById('executiveDropdown');
+        var executiveCoachingSubMenu = document.getElementById('executiveCoachingSubMenu');
+
+        executiveDropdown.addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default action
+            event.stopPropagation(); // Prevent the dropdown from closing immediately
+
+            if (executiveCoachingSubMenu.style.display === 'block') {
+                executiveCoachingSubMenu.style.display = 'none';
+            } else {
+                executiveCoachingSubMenu.style.display = 'block';
+            }
+        });
+
+        // Close the submenu if clicked outside
+        document.addEventListener('click', function(event) {
+            if (event.target !== executiveDropdown) {
+                executiveCoachingSubMenu.style.display = 'none';
+            }
+        });
+
+        // Prevent link action in the sub-item
+        var subItems = document.querySelectorAll('.sub-item');
+        subItems.forEach(function(item) {
+            item.addEventListener('click', function(event) {
+                event.preventDefault();
+            });
+        });
+
+        var executiveCoaching = document.getElementById('executiveCoaching');
+        executiveCoaching.addEventListener('click', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+        });
+    });
+</script>
+
 <!-- END nav -->
 <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');"
          data-stellar-background-ratio="0.5">

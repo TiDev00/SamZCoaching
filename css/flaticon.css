@@ -1,46 +1,348 @@
-	/*
-  	Flaticon icon font: Flaticon
-  	Creation date: 24/01/2020 06:52
-  	*/
+/*
+  Flaticon icon font: Flaticon
+  Creation date: 24/01/2020 06:52
+  */
 
 
 @font-face {
-  font-family: "Flaticon";
-  src: url("../fonts/flaticon/font/Flaticon.eot");
-  src: url("../fonts/flaticon/font/Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/flaticon/font/Flaticon.woff") format("woff"),
-       url("../fonts/flaticon/font/Flaticon.ttf") format("truetype"),
-       url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon/font/Flaticon.eot");
+    src: url("../fonts/flaticon/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/flaticon/font/Flaticon.woff") format("woff"),
+    url("../fonts/flaticon/font/Flaticon.ttf") format("truetype"),
+    url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: "Flaticon";
-    src: url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
-  }
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+        font-family: "Flaticon";
+        src: url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+    }
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-goal:before { content: "\f100"; }
-.flaticon-stress:before { content: "\f101"; }
-.flaticon-crm:before { content: "\f102"; }
-.flaticon-account:before { content: "\f103"; }
-.flaticon-skills:before { content: "\f104"; }
-.flaticon-performance:before { content: "\f105"; }
-.flaticon-event:before { content: "\f106"; }
-.flaticon-marriage:before { content: "\f107"; }
+.flaticon-goal:before {
+    content: "\f100";
+}
+
+.flaticon-stress:before {
+    content: "\f101";
+}
+
+.flaticon-crm:before {
+    content: "\f102";
+}
+
+.flaticon-account:before {
+    content: "\f103";
+}
+
+.flaticon-skills:before {
+    content: "\f104";
+}
+
+.flaticon-performance:before {
+    content: "\f105";
+}
+
+.flaticon-event:before {
+    content: "\f106";
+}
+
+.flaticon-marriage:before {
+    content: "\f107";
+}
+
+.flaticon-star:before {
+    content: "\2606";
+}
+
+.flaticon-starship:before {
+    content: url(../images/flaticon/img_18.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-starship {
+    content: url(../images/flaticon/img_18.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-success:before {
+    content: url(../images/flaticon/img.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-success {
+    content: url(../images/flaticon/img.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-conflict:before {
+    content: url(../images/flaticon/img_1.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-conflict {
+    content: url(../images/flaticon/img_1.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-empowering:before {
+    content: url(../images/flaticon/img_2.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-empowering {
+    content: url(../images/flaticon/img_2.png);
+    transform: scale(10.0%);
+}
+.flaticon-focus:before {
+    content: url(../images/flaticon/img_3.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-focus {
+    content: url(../images/flaticon/img_3.png);
+    transform: scale(10.0%);
+}
+.flaticon-choose:before {
+    content: url(../images/flaticon/img_4.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-choose {
+    content: url(../images/flaticon/img_4.png);
+    transform: scale(10.0%);
+}
+.flaticon-key:before {
+    content: url(../images/flaticon/img_5.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-key {
+    content: url(../images/flaticon/img_5.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-security:before {
+    content: url(../images/flaticon/img_6.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-security {
+    content: url(../images/flaticon/img_6.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-fondation:before {
+    content: url(../images/flaticon/img_7.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-fondation {
+    content: url(../images/flaticon/img_7.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-orgCultPo:before {
+    content: url(../images/flaticon/img_8.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-orgCultPo {
+    content: url(../images/flaticon/img_8.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-impression:before {
+    content: url(../images/flaticon/img_9.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-impression {
+    content: url(../images/flaticon/img_9.png);
+    transform: scale(10.0%);
+}
+.flaticon-develop:before {
+    content: url(../images/flaticon/img_10.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-develop {
+    content: url(../images/flaticon/img_10.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-boost:before {
+    content: url(../images/flaticon/img_11.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-boost {
+    content: url(../images/flaticon/img_11.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-incdecr:before {
+    content: url(../images/flaticon/img_12.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-incdecr {
+    content: url(../images/flaticon/img_12.png);
+    transform: scale(16.0%);
+}
+.flaticon-confidence:before {
+    content: url(../images/flaticon/img_13.png);
+    transform: scale(16.0%);
+}
+
+.flaticon-confidence {
+    content: url(../images/flaticon/img_13.png);
+    transform: scale(10.0%);
+}
+.flaticon-globe:before {
+    content: url(../images/flaticon/img_14.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-globe {
+    content: url(../images/flaticon/img_14.png);
+    transform: scale(16.0%);
+}
+.flaticon-micro:before {
+    content: url(../images/flaticon/img_15.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-micro {
+    content: url(../images/flaticon/img_15.png);
+    transform: scale(10.0%);
+}
+.flaticon-talk:before {
+    content: url(../images/flaticon/img_16.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-talk {
+    content: url(../images/flaticon/img_16.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-business:before {
+    content: url(../images/flaticon/img_17.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-business {
+    content: url(../images/flaticon/img_17.png);
+    transform: scale(10.0%);
+}
+.flaticon-benefits:before {
+    content: url(../images/flaticon/img_20.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-benefits {
+    content: url(../images/flaticon/img_20.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-challenge:before {
+    content: url(../images/flaticon/img_21.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-challenge {
+    content: url(../images/flaticon/img_21.png);
+    transform: scale(10.0%);
+}
+.flaticon-solution:before {
+    content: url(../images/flaticon/img_22.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-solution{
+    content: url(../images/flaticon/img_22.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-strength:before {
+    content: url(../images/flaticon/img_23.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-strength{
+    content: url(../images/flaticon/img_23.png);
+    transform: scale(10.0%);
+}
+.flaticon-planning:before {
+    content: url(../images/flaticon/img_24.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-planning{
+    content: url(../images/flaticon/img_24.png);
+    transform: scale(10.0%);
+}
+.flaticon-communication:before {
+    content: url(../images/flaticon/img_25.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-communication{
+    content: url(../images/flaticon/img_25.png);
+    transform: scale(10.0%);
+}
+.flaticon-time:before {
+    content: url(../images/flaticon/img_26.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-time{
+    content: url(../images/flaticon/img_26.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-engagement:before {
+    content: url(../images/flaticon/img_27.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-engagement{
+    content: url(../images/flaticon/img_27.png);
+    transform: scale(10.0%);
+}
+.flaticon-leader:before {
+    content: url(../images/flaticon/img_28.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-leader{
+    content: url(../images/flaticon/img_28.png);
+    transform: scale(10.0%);
+}
+.flaticon-performance1:before {
+    content: url(../images/flaticon/img_29.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-performance1{
+    content: url(../images/flaticon/img_29.png);
+    transform: scale(10.0%);
+}

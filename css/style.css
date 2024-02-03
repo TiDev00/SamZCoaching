@@ -2545,7 +2545,7 @@ input[type="button"].btn-block {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
+  top: 60%;
   left: 0;
   z-index: 1000;
   display: none;
@@ -2695,6 +2695,7 @@ input[type="button"].btn-block {
 
 .dropdown-item {
   display: block;
+
   width: 100%;
   padding: 0.25rem 1.5rem;
   clear: both;
@@ -7799,6 +7800,7 @@ button.bg-dark:focus {
   text-align: right !important; }
 
 .text-center {
+
   text-align: center !important; }
 
 @media (min-width: 576px) {
@@ -9751,3 +9753,8 @@ textarea.form-control {
   }
 }
 
+.sub-menu {
+  top :0;
+  left: 100%;
+  right: auto;
+}
