@@ -131,11 +131,13 @@ sup {
   width: 450px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
 
+
 }
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .logo-image {
-    width: 250px; /* Adjust the width for smaller screens */
+    width: 200px; /* Adjust the width for smaller screens */
+    height: auto; /* Maintain aspect ratio */
   }
 }
 a {
@@ -3479,7 +3481,10 @@ input[type="button"].btn-block {
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
-  white-space: nowrap; }
+  white-space: nowrap;
+
+
+}
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
 
@@ -3493,7 +3498,8 @@ input[type="button"].btn-block {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  list-style: none; }
+  list-style: none;
+}
   .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0; }
