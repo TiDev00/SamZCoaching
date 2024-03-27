@@ -9840,3 +9840,41 @@ textarea.form-control {
   right: auto;
 }
 
+
+/* Base styles for images */
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media queries */
+@media (max-width: 768px) { /* Adjust for tablets */
+  .top-left-image, .top-right-image {
+    width: 90px; /* Smaller size */
+    height: 90px; /* Keep aspect ratio */
+  }
+  .top-right-image {
+    top: 12px; /* Adjust the top position so it does not overlap */
+  }
+}
+
+@media (max-width: 480px) { /* Adjust for phones */
+  .top-left-image, .top-right-image {
+    width: 70px; /* Even smaller size */
+    height: 70px; /* Keep aspect ratio */
+  }
+  .top-right-image {
+    top: 24px; /* Further adjust the top position for smaller screens */
+  }
+
+  /* Centre le contenu du carrousel des témoignages */
+  .carousel-testimony {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Empile les éléments verticalement */
+  }
+
+
+}
+

@@ -408,3 +408,34 @@
     content: url(../images/flaticon/img_35.png);
     transform: scale(10.0%);
 }
+
+.flaticon-vision:before {
+    content: url(../images/flaticon/img_36.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-vision {
+    content: url(../images/flaticon/img_36.png);
+    transform: scale(10.0%);
+}
+
+.flaticon-mission:before {
+    content: url(../images/flaticon/img_37.png);
+    transform: scale(9.0%);
+}
+
+.flaticon-mission {
+    content: url(../images/flaticon/img_37.png);
+    transform: scale(9.5%);
+}
+
+
+.flaticon-value:before {
+    content: url(../images/flaticon/img_38.png);
+    transform: scale(9.5%);
+}
+
+.flaticon-value {
+    content: url(../images/flaticon/img_38.png);
+    transform: scale(10.0%);
+}
